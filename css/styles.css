@@ -747,7 +747,7 @@ textarea {
     margin-right: 8px;
 }
 
-#field-checkbox:checked~.form-label-checkbox>.form-custom-checkbox {
+#user-privacy:checked~.form-label-checkbox>.form-custom-checkbox {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
