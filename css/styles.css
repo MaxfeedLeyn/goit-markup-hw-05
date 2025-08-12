@@ -509,13 +509,14 @@ textarea {
 }
 
 .footer-form{
-    display: inline-flex;
+    display: flex;
+    gap: 24px;
 }
 
 .footer-form-field{
     border: 1px solid #fff;
     border-radius: 4px;
-    min-width: 264px;
+    width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
@@ -535,7 +536,7 @@ textarea {
 .footer-form-btn{
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -546,6 +547,7 @@ textarea {
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .footer-form-btn:hover,
