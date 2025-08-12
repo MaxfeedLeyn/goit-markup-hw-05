@@ -553,8 +553,8 @@ textarea {
     background-color: #404BBF;
 }
 
-.footer-form-btn-text{
-    margin-right: 16px;
+.footer-form-btn .icon{
+    margin-left: 16px;
 }
 
 /* popup */
